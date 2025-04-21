@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Cambios + Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="changelog-container">
+        <div class="changelog-title">Registro de Cambios</div>
+        <ul class="changelog-list">
+            <li class="changelog-item">
+                <span class="changelog-date">3 Sept 2024</span>
+                <div class="changelog-description">Anuncio de proyectos en roadmap frontend</div>
+            </li>
+            <li class="changelog-item">
+                <span class="changelog-date">28 Ago 2024</span>
+                <div class="changelog-description">Construye hábitos de aprendizaje con rachas</div>
+            </li>
+            <li class="changelog-item">
+                <span class="changelog-date">25 Ago 2024</span>
+                <div class="changelog-description">Roadmap de Git y GitHub</div>
+            </li>
+            <li class="changelog-item">
+                <span class="changelog-date">22 Ago 2024</span>
+                <div class="changelog-description">Envía tu solución y obtén feedback</div>
+            </li>
+            <li class="changelog-item">
+                <span class="changelog-date">15 Ago 2024</span>
+                <div class="changelog-description">Ideas para proyectos backend</div>
+            </li>
+            <li class="changelog-item">
+                <span class="changelog-date">10 Ago 2024</span>
+                <div class="changelog-description">Roadmap de Redis</div>
+            </li>
+            <li class="changelog-item">
+                <span class="changelog-date">1 Ago 2024</span>
+                <div class="changelog-description">Página de registro de cambios para mantenerte informado</div>
+            </li>
+        </ul>
+        <a href="#" class="changelog-button">Ver Registro Completo</a>
+    </div>
+
+    <div class="todo-container">
+        <h2>Task Tracker</h2>
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="Start writing and press enter to create task">
+            <button onclick="addTask()">➕</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
